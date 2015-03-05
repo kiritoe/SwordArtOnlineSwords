@@ -1,0 +1,16 @@
+[
+{
+  "modid": "swordartonlineswords",
+  "name": "Sword Art Online Swords",
+  "description": "Some Of The Swords From Sword Art Online",
+  "version": "1.0",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Poro Shadows"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -7,9 +7,10 @@ import com.poroshadows.swordartonlineswords.utilities.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.mod_ID, name = Reference.mod_Name, version = Reference.mod_Version)
+@Mod(modid = Reference.mod_ID, name = Reference.mod_Name, version = Reference.mod_Version, canBeDeactivated = true)
 public class SwordArtOnlineSwords {
 
     public static CreativeTabs SAOSwordsTab = new SAOSwordsTab(CreativeTabs.getNextID(), Reference.mod_ID + "Tab");
@@ -21,5 +22,9 @@ public class SwordArtOnlineSwords {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         TextureManager.textures();
+    }
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+
     }
 }
