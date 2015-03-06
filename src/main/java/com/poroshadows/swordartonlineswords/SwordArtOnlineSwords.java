@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.mod_ID, name = Reference.mod_Name, version = Reference.mod_Version, canBeDeactivated = true)
+@Mod(modid = Reference.mod_ID, name = Reference.mod_Name, version = Reference.mod_Version, canBeDeactivated = Reference.canBDeactiveded)
 public class SwordArtOnlineSwords {
 
     public static CreativeTabs SAOSwordsTab = new SAOSwordsTab(CreativeTabs.getNextID(), Reference.mod_ID + "Tab");

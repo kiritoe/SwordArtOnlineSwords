@@ -8,5 +8,6 @@ public class TextureManager {
         TextureHelper.inventoryItemTexture(ModSwords.Elucidator, "Elucidator");
         TextureHelper.inventoryItemTexture(ModSwords.DarkRepulser, "DarkRepulser");
         TextureHelper.inventoryItemTexture(ModSwords.LambentLight, "LambentLight");
+        TextureHelper.inventoryItemTexture(ModSwords.AnnealBlade, "AnnealBlade");
     }
 }
