@@ -1,7 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "swordartonlineswords:items/AnnealBlade3"
+    "layer0": "swordartonlineswords:items/AnnealBlade"
   },
   "display": {
     "thirdperson": {

@@ -1,6 +1,8 @@
 package com.poroshadows.swordartonlineswords.utilities;
 
 import com.poroshadows.swordartonlineswords.SwordArtOnlineSwords;
+import net.minecraft.item.EnumRarity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 
 public class SwordBase extends ItemSword {
