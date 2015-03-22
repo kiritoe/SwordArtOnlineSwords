@@ -1,0 +1,1 @@
+jar -cf filenameOutput filenameInput
